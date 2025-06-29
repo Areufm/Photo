@@ -1,0 +1,57 @@
+{
+	"name": "photo-gallery-uniapp",
+	"version": "2.0.0",
+	"description": "基于 uniapp + Vue3 + TypeScript 的现代化图库管理应用",
+	"main": "main.js",
+	"scripts": {
+		"dev:h5": "uni build --watch --platform h5",
+		"build:h5": "uni build --platform h5",
+		"dev:mp-weixin": "uni build --watch --platform mp-weixin",
+		"build:mp-weixin": "uni build --platform mp-weixin",
+		"dev:app": "uni build --watch --platform app",
+		"build:app": "uni build --platform app",
+		"type-check": "vue-tsc --noEmit",
+		"lint": "eslint src --ext .ts,.vue",
+		"lint:fix": "eslint src --ext .ts,.vue --fix"
+	},
+	"keywords": [
+		"uniapp",
+		"vue3",
+		"typescript",
+		"photo-gallery",
+		"image-management",
+		"cross-platform"
+	],
+	"author": "Your Name",
+	"license": "MIT",
+	"dependencies": {
+		"@dcloudio/uni-app": "^3.0.0",
+		"@dcloudio/uni-components": "^3.0.0",
+		"@dcloudio/uni-h5": "^3.0.0",
+		"@dcloudio/uni-mp-weixin": "^3.0.0",
+		"vue": "^3.3.0"
+	},
+	"devDependencies": {
+		"@dcloudio/types": "^3.4.0",
+		"@dcloudio/uni-cli-shared": "^3.0.0",
+		"@dcloudio/uni-stacktracey": "^3.0.0",
+		"@dcloudio/webpack-uni-mp-loader": "^3.0.0",
+		"@typescript-eslint/eslint-plugin": "^6.0.0",
+		"@typescript-eslint/parser": "^6.0.0",
+		"@vue/tsconfig": "^0.4.0",
+		"eslint": "^8.45.0",
+		"eslint-plugin-vue": "^9.15.0",
+		"typescript": "^5.1.0",
+		"vue-tsc": "^1.8.0"
+	},
+	"uni-app": {
+		"scripts": {}
+	},
+	"browserslist": [
+		"Android >= 4.4",
+		"ios >= 9"
+	],
+	"engines": {
+		"node": ">=16.0.0"
+	}
+} 
